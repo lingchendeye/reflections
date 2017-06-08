@@ -1,0 +1,11 @@
+﻿Setting up Sublime
+echo 'alias subl="D:/qianliu/Sublime\ Text\ Build\ 3126\ x64/sublime_text.exe"' >> ~/.bashrc
+1.注意 \ 和/的使用与计算机中的文件目录不同，空格要用‘\ ’表示
+2.注意 subl 不是 sub1
+cd ~                          # 更改目录 directory
+mkdir version-control         # 创建 version-control 目录
+cd version-control            # 转到 version-control 目录
+mkdir reflections             # 创建 reflections（思考）目录
+cd reflections                # 转到 reflections（思考）目录
+subl lesson_1_reflections.txt # 启动 Sublime Text，并打开名为 lesson_1_reflections.txt 的文件
+（如果你更喜欢使用其他编辑器，则可将 subl 替换为该编辑器的名称）
